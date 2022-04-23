@@ -107,35 +107,35 @@ in, not in
 
 ## Data types in Python
 
-   - ### Strings
-    Strings are sequences of character data. The string type in Python is called str.
-    String literals may be delimited using either single or double quotes.
-    ```python
-    greeting =("Hello There")
-    print(greeting) # Hello There
+- ### Strings
+Strings are sequences of character data. The string type in Python is called str.
+String literals may be delimited using either single or double quotes.
+```python
+ greeting =("Hello There")
+ print(greeting) # Hello There
     
-    name1="py"
-    name2="thon"
-    print(name1 + name2) # python
+ name1="py"
+ name2="thon"
+ print(name1 + name2) # python
     
-    person=("Kim")
-    print(f"Hello {person}")
-    ```
+ person=("Kim")
+ print(f"Hello {person}")
+ ```
 
 
-   - ### Numbers
-   Python includes three numeric types to represent numbers: integers, float, and complex number.
+- ### Numbers
+Python includes three numeric types to represent numbers: integers, float, and complex number.
     
-    ```python
-    amount=1000 # integer
-    print(f"Amount provided is ksh{amount}") # Amount provided is ksh1000
-    quantity=12.5 # float
-    print(f"The required quantity is {quantity}L") # The required quantity is 12.5L
-    value= 1+5j # complex
-    print(f"The solution is {value}") # The solution is (1+5j)
-    ```
+ ```python
+ amount=1000 # integer
+ print(f"Amount provided is ksh{amount}") # Amount provided is ksh1000
+ quantity=12.5 # float
+ print(f"The required quantity is {quantity}L") # The required quantity is 12.5L
+ value= 1+5j # complex
+ print(f"The solution is {value}") # The solution is (1+5j)
+  ```
     
- - ### List
+- ### List
   Lists are a built-in data type in Python, and one of the most powerful data structures.
   They act as containers and store multiple, typically related, items under the same variable name.
   Items are placed and enclosed inside square brackets, []. Each item inside the square brackets is separated by a comma, ,.
