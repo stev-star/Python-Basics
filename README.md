@@ -54,8 +54,9 @@ is very important.
 
 Python uses indentation to indicate a block of code.
 
+```python
 for i in range(5):
-
+```python
     print(i)
     
 ## Comments
@@ -63,7 +64,7 @@ for i in range(5):
 Comments start with a #, and Python will render the rest of the line as a comment
 
 #This is a programm to display "Hello World!"
-
+```python
 print("Hello World!")
 
 ## Variables
