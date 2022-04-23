@@ -107,5 +107,83 @@ in, not in
 
 ## Data types in Python
 
-  - Numbers
+   - ### Strings
+    Strings are sequences of character data. The string type in Python is called str.
+    String literals may be delimited using either single or double quotes.
+    ```python
+    greeting =("Hello There")
+    print(greeting) # Hello There
+    
+    name1="py"
+    name2="thon"
+    print(name1 + name2) # python
+    
+    person=("Kim")
+    print(f"Hello {person}")
+    ```
+
+
+   - ### Numbers
+   Python includes three numeric types to represent numbers: integers, float, and complex number.
+    
+    ```python
+    amount=1000 # integer
+    print(f"Amount provided is ksh{amount}") # Amount provided is ksh1000
+    quantity=12.5 # float
+    print(f"The required quantity is {quantity}L") # The required quantity is 12.5L
+    value= 1+5j # complex
+    print(f"The solution is {value}") # The solution is (1+5j)
+    ```
+    
+ - ### List
+  Lists are a built-in data type in Python, and one of the most powerful data structures.
+  They act as containers and store multiple, typically related, items under the same variable name.
+  Items are placed and enclosed inside square brackets, []. Each item inside the square brackets is separated by a comma, ,.
+    
+```python
+colors=['green','red','blue']
+colors.append('yellow')
+colors.insert(4,'black')
+print(colors)
+del colors[1]
+print(colors)
+colors.pop()
+print(colors)
+colors.remove('blue')
+print(colors)
+```
+- ### Tuple
+
+A Tuple is a collection of Python objects separated by commas. In someways a tuple is similar to a list 
+in terms of indexing, nested objects and repetition but a tuple is immutable unlike lists which are mutable.
+
+```python
+rgb=('red','green','blue')
+print(rgb)
+print(rgb[0])
+```
+- ### Dictionary
+
+Dictionary in Python is an unordered collection of data values, used to store data values like a map,
+which, unlike other Data Types that hold only a single value as an element, Dictionary holds key:value pair.
+The first way is by using a set of curly braces, {}, and the second way is by using the built-in dict() function.
+
+```python
+person={'name':'john',
+'age':21,
+'country':'Kenya',
+'programming_language':'Python'}
+print(person['age'])
+```
+
+- ### Set
+
+Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. 
+The order of elements in a set is undefined though it may consist of various elements.
+
+```python
+fruits={"apple", "banana", "cherry","mango","pawpaw","pineapple"}
+print(fruits)
+```
+
 
