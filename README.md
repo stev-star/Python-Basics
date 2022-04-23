@@ -40,8 +40,9 @@ object-oriented and fuctional programming.
 ## Python Hello World
 
 ### Here's how to create a python program that displays "Hello World!"
-
+```python
 print("Hello World!")
+```
 
 The print() is a built-in function that displays a message on the screen
 
@@ -54,10 +55,11 @@ is very important.
 
 Python uses indentation to indicate a block of code.
 
-```python
-for i in range(5):
-```python
-    print(i)
+ ```python
+ for i in range(5):
+ print(i)
+ ```
+    
     
 ## Comments
 
@@ -66,6 +68,7 @@ Comments start with a #, and Python will render the rest of the line as a commen
 #This is a programm to display "Hello World!"
 ```python
 print("Hello World!")
+```
 
 ## Variables
 
