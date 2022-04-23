@@ -72,6 +72,37 @@ print("Hello World!")
 
 ## Variables
 
+A Python variable is a reserved memory location to store values. In other words, a variable in a python program 
+gives data to the computer for processing.
 
+```python
+num=100 
+print(num) 
+place=’Nyahururu’ 
+print(place)
+```
+
+## Python Operators
+
+### Arithmetic Operators: 
++,-,/,*,%,//,**
+
+### Comparison operators: 
+>,<,==,!=,<=,>=
+>
+### Logical operators:
+and,or,not
+
+### Bitwise operators:
+<<,|,&,~,^,>>
+
+### Assignment Operator:
+=,+=,-=,/=,*=
+
+### Identity operators:
+is,is not
+
+### Membership operators:
+in,not in
 
 
