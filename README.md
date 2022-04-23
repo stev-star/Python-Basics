@@ -85,24 +85,24 @@ print(place)
 ## Python Operators
 
 ### Arithmetic Operators: 
-+,-,/,*,%,//,**
++, -, /, *, % ,//, **
 
 ### Comparison operators: 
->,<,==,!=,<=,>=
+>, <, ==, !=, <=, >=
 >
 ### Logical operators:
-and,or,not
+and, or, not
 
 ### Bitwise operators:
-<<,|,&,~,^,>>
+<<, |, &, ~, ^, >>
 
 ### Assignment Operator:
-=,+=,-=,/=,*=
+=, +=, -=, /=, *=
 
 ### Identity operators:
-is,is not
+is, is not
 
 ### Membership operators:
-in,not in
+in, not in
 
 
