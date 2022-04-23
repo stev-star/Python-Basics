@@ -105,4 +105,7 @@ is, is not
 ### Membership operators:
 in, not in
 
+## Data types in Python
+
+  - Numbers
 
