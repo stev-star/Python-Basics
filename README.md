@@ -1,5 +1,5 @@
 # Python-Basics
-This repository contains an Article and Two project that is Prime numbers and Fibonacci sequence
+This repository contains an Python Article
 
 # Introduction To Python Programming
 
