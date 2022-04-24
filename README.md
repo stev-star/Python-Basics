@@ -166,6 +166,7 @@ print(colors) # ['green', 'yellow']
 
 A Tuple is a collection of Python objects separated by commas. In someways a tuple is similar to a list 
 in terms of indexing, nested objects and repetition but a tuple is immutable unlike lists which are mutable.
+items are enclosed inside brackets ().
 
 ```python
 rgb=('red','green','blue')
@@ -196,6 +197,7 @@ del person['country']
 
 Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. 
 The order of elements in a set is undefined though it may consist of various elements.
+Sets are written with curly brackets {}.
 
 ```python
 fruits={"apple", "banana", "cherry","mango","pawpaw","pineapple"}
