@@ -1,4 +1,4 @@
-# Python-Bootcamp
+# Python-Basics
 This repository contains an Article and Two project that is Prime numbers and Fibonacci sequence
 
 # Introduction To Python Programming
@@ -77,9 +77,9 @@ gives data to the computer for processing.
 
 ```python
 num=100 
-print(num) 
+print(num) # 100
 place=’Nyahururu’ 
-print(place)
+print(place) # Nyahururu
 ```
 
 ## Python Operators
@@ -107,6 +107,19 @@ in, not in
 
 ## Data types in Python
 
+
+- ### Numbers
+Python includes three numeric types to represent numbers: integers, float, and complex number.
+    
+ ```python
+ amount=1000 # integer
+ print(f"Amount provided is ksh{amount}") # Amount provided is ksh1000
+ quantity=12.5 # float
+ print(f"The required quantity is {quantity}L") # The required quantity is 12.5L
+ value= 1+5j # complex
+ print(f"The solution is {value}") # The solution is (1+5j)
+  ```
+
 - ### Strings
 Strings are sequences of character data. The string type in Python is called str.
 String literals may be delimited using either single or double quotes.
@@ -121,19 +134,15 @@ String literals may be delimited using either single or double quotes.
  person=("Kim")
  print(f"Hello {person}")
  ```
+  
+  - ### Boolean
+Python boolean type is one of the built-in data types provided by Python, which represents one of the two values i.e. True or False.
 
-
-- ### Numbers
-Python includes three numeric types to represent numbers: integers, float, and complex number.
-    
- ```python
- amount=1000 # integer
- print(f"Amount provided is ksh{amount}") # Amount provided is ksh1000
- quantity=12.5 # float
- print(f"The required quantity is {quantity}L") # The required quantity is 12.5L
- value= 1+5j # complex
- print(f"The solution is {value}") # The solution is (1+5j)
-  ```
+```python
+print(10 > 9) # True
+print(6 ==3) # False
+print(15 < 11) # False
+```
     
 - ### List
   Lists are a built-in data type in Python, and one of the most powerful data structures.
@@ -143,14 +152,15 @@ Python includes three numeric types to represent numbers: integers, float, and c
 ```python
 colors=['green','red','blue']
 colors.append('yellow')
+print(colors) # ['green', 'red', 'blue', 'yellow']
 colors.insert(4,'black')
-print(colors)
+print(colors) # ['green', 'red', 'blue', 'yellow', 'black']
 del colors[1]
-print(colors)
+print(colors) # ['green', 'blue', 'yellow', 'black']
 colors.pop()
-print(colors)
+print(colors) # ['green', 'blue', 'yellow']
 colors.remove('blue')
-print(colors)
+print(colors) # ['green', 'yellow']
 ```
 - ### Tuple
 
@@ -159,8 +169,8 @@ in terms of indexing, nested objects and repetition but a tuple is immutable unl
 
 ```python
 rgb=('red','green','blue')
-print(rgb)
-print(rgb[0])
+print(rgb) # ('red', 'green', 'blue')
+print(rgb[0]) # red
 ```
 - ### Dictionary
 
@@ -173,7 +183,13 @@ person={'name':'john',
 'age':21,
 'country':'Kenya',
 'programming_language':'Python'}
-print(person['age'])
+print(person['age']) # 21
+print(person['name'] # john
+
+# adding a new key-value
+person['Hobby']='Swimming'
+# deleting a key-value
+del person['country']
 ```
 
 - ### Set
@@ -184,6 +200,15 @@ The order of elements in a set is undefined though it may consist of various ele
 ```python
 fruits={"apple", "banana", "cherry","mango","pawpaw","pineapple"}
 print(fruits)
+
+# adding a fruit
+fruits.add('watermelon')
+# removing a fruit
+fruit.remove('pawpaw')
+fruit.discard('cherry')
+# removing all elements
+fruits.clear() # set()
 ```
+
 
 
